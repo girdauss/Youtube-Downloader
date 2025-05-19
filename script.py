@@ -15,9 +15,9 @@ try:
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         if format == "1":
-            print("Youtube to Audio Downloader")
+            print("Youtube to Audio Downloader\n\n")
         if format == "2":
-            print("Youtube to Video Downloader")
+            print("Youtube to Video Downloader\n\n")
         url = input("Input Youtube URL: ")
         if not url:
             print("URL not valid. Please try again.\n")
